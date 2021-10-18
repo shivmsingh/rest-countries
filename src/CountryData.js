@@ -23,7 +23,7 @@ const CountryData = () => {
   async function getData() {
     try {
       const response = await axios.get(
-        `https://restcountries.com/v3.1/name/${countryName}`
+        `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
       );
       setCountryData((countryData) => [response.data, ...countryData]);
       console.log(countryData);
