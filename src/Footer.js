@@ -7,7 +7,7 @@ const Footer = () => {
     <Box p="2">
       <Text>
         Made with ❤️ by{' '}
-        <Link href="https://shivmsingh.github.io/" isExternal>
+        <Link href="https://shivmsingh.netlify.app/" isExternal>
           Shivam Singh
           <ExternalLinkIcon mx="2px" />
         </Link>
